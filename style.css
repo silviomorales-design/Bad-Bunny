@@ -1,0 +1,36 @@
+body {
+  margin:0;
+  padding:0;
+}
+nav {
+  background-color:black;
+  height:50px;
+  display :flex;
+  justify-content:space-between;
+ /* background: linear-gradient(skyblue, green) no-repeat;8/
+  /*background-image:url("https://i0.wp.com/picjumbo.com/wp-content/uploads/green-natural-background-with-wooden-surface-free-image.jpeg?w=2210&quality=70");*/
+}
+nav a {
+  color:pink;
+  text-decoration:none;
+  margin:auto;
+}
+/* unvisited link */
+a:link {
+  color:pink;
+}
+/* visited link */
+a:visited {
+  color:orange;
+}
+/* mouse over link */
+a:hover{
+  color:red;
+}
+/* selected link */
+a:active{
+  color:green;
+}
+.galeria{
+  width:250px;
+}
